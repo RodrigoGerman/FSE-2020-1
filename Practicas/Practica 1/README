@@ -1,0 +1,36 @@
+Nombres:
+-Cuautle Torres Ricardo Rodrigo
+-German Lopez Rodrigo
+-Lemuz Fuentes Omar
+
+Respuestas a las preguntas de la práctica:
+
+1) ¿Cuál es la razón principal de usar Linux en el diseño de sistemas embebidos?
+
+   Actualmente hay un crecimiento explosivo por el uso de Linux en sistemas embebidos en diferentes industrias. Algunas razones son:
+
+   Tiempo Real: Algunos sistemas embebidos que ejecutan aplicaciones críticas podrían requerir respuestas donde el tiempo es un factor importante y Linux incluye la funcionalidad tiempo-real con el conjunto de parches PREEMPT_RT.
+   Royalies : Linux puede ser desarrollado sin ningún tipo de royalt
+   Soporte de Hardware: Linux soporta una gran variedad de dispositivos de hardware, incluyendo la mayoría de las architecturas de CPUs: ARM , Intel x86, MIPS, PowerPC y sus respectivas variantes de 32 y 64 bits.
+   Redes: Linux soporta una gran variedad de protocolos de red. Aparte de TCP/IP, prácticamente cualquier protocolo de la capa física esta implementado.
+   Modularidad: El Stack de Linux está compuesto por varios paquetes de software. Los usuarios pueden personalizar el Stack para que se ajuste exactamente a sus requerimientos.
+   Escalabilidad: Linux puede escalar desde sistemas simples de una CPU hasta sistemas multicore, con grandes memorias, varias interfaces de red, etc. 
+   Código Fuente: Tanto el código fuente del Kernel de Linux, asi como el de sus paquetes de software incluidos en el Stack del sistema operativo (Linux OS Stack), está dosponible en forma libre.
+   Soporte para Desarrolladores: Debido a sus caracteristicas de Open Source, Linux cuenta con una gran cantidad de desarrolladores activos, los cuales dan soporte rápidamente a eventuales nuevos dispositivos de hardware.
+   Soporte Comercial: Existe un número creciente de vendedores de software y hardware, incluyendo a todos los productores de semiconductores y vendedores de software independientes que actualmente ofrecen productos y servicios de soporte para Linux.
+   Herramientas: Linux provee miles de herramientas para desarrollo de software, que van desde compiladores para prácticamente todos los lenguajes de programación hasta un número creciente de herramientas para el moniteoreo de rendimiento y profiling, las cuales son importantes para el desarrollo de sistemas embebidos.
+
+2) Formas de conectarse con una raspberry:
+
+   -SSH: el protocolo SSH también nos permite 
+	 hacer uso del protocolo SFTP para poder 
+	 acceder a todos los archivos almacenados 
+	 en el servidor (en este caso la Raspberry Pi)
+	 a través del protocolo FTP de forma segura y cifrada.
+   
+   -VNC: permite crear la conexión mediante el protocolo SSH
+	 con la diferencia que este hace uso de modo gráfico.
+   
+   -RDP: Podemos controlar la Raspberry mediante RDP,
+	 el cual es un protocolo de Microsoft, y no de Linux
+	 como los dos anteriores.
