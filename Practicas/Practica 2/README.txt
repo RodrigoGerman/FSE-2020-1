@@ -40,6 +40,19 @@ Cuestionario
 	-> Direccionamiento a memoria, actualizando registro puntero: En este modo de 	direccionamiento, el registro que
 	genera la dirección se actualiza con la propia dirección.
 	
+(c) En el set de instrucciones de ARM Extendido se tiene alrededor de 187 instrucciones, sin embargo muchas de estas se pueden
+“combinar” con 15 códigos de condición las cuales verifican las banderas y si cumple con la condición seleccionada la
+instrucción será ejecutada.
+Existen varios modos de direccionamiento para los ARM, se tienen los siguientes:
+	Offset
+	Offset Pre-indexado
+	Offset Post-indexado
+	Offset Inmediato
+	Offset de Registro
+	Carga de Bloque
+	Guardado de Bloque
+	No indexado
+	
 
 REFERENCIAS:
  - https://stackoverflow.com/questions/11277652/what-is-the-meaning-of-align-an-the-start-of-a-section
