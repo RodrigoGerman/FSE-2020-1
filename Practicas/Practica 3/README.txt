@@ -11,10 +11,7 @@ Cuestionario
 
 (a) Cuantas formas de configurar y programar hay disponibles en la raspberry pi?
 
-
-
-
-
+Es posible configurar y programar la raspberry pi de diferentes formas y a través de diferentes elementos. Es posible decir que los más importantes son las interfaces de comunicaciones I2C, SPI y UART, que nos permiten establecer comunicación entre diferentes periféricos internos o externos a la tarjeta de desarrollo y pueden resultar muy útiles para elaborar diferentes aplicaciones dependiendo el enfoque que se les dé.
 
 (b) Que es el sistema de archivos sysfs?
 
